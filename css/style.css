@@ -9,3 +9,29 @@ body {
     font-family: 'Roboto Condensed', sans-serif;
     font-family: 'Roboto Slab', serif;
 }
+
+p {
+    color: #777777;
+}
+
+/* slider styles */
+@media screen and (min-width:768px) {
+    .carousel-caption-custom {
+        padding-bottom: 2.25rem !important;
+    }
+}
+
+@media screen and (min-width:576px) {
+    .carousel-caption-custom {
+        padding-bottom: 10px !important;
+    }
+}
+
+
+
+
+
+/* courses styles */
+.Learning-bg {
+    background: #F4FAFD;
+}
